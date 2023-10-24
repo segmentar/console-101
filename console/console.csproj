@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C18DDA8-0EF1-4DA2-A428-E1A56F53F195}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>console-x86-debug</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\1D\Interop\IL\01\Lenf01IL.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\1D\Interop\IL\02\Linf02IL.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\1D\Interop\IL\03\Extf03IL.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\1D\Interop\IL\04\Reff04IL.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\1D\Interop\IL\05\Debf05IL.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\1D\Interop\IL\06\Chrf06IL.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\1D\Interop\IL\07\Escf07IL.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\1D\Interop\IL\08\Finf08IL.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\1D\Interop\OL\01\Callf01OL.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\1D\Interop\OL\02\Inpuf02OL.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\1D\Interop\OL\03\Copyf03OL.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\1D\Interop\OL\04\Outpf04OL.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Architecture\Partition\Architecture.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Immutable\Immutable.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Specialize\Getter\GetAutoCommandStringBuilder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Specialize\Getter\GetConsoleljInstance.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Specialize\Getter\GetInputDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Specialize\Getter\GetOutputDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Specialize\Setter\SetConsoleljInstance.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Specialize\Setter\SetEscapeCharacter.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Specialize\Setter\SetInputDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Specialize\Setter\SetNativeString.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Specialize\Setter\SetOutputDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Specialize\Setter\SetSharedString.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Specialize\Setter\SetTerminatorCharacter.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Specialize\Value\ValueConsoleljAddAutoCall.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Specialize\Value\ValueConsoleljAutoCall.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\2D\Specialize\Value\ValueConsoleljShow.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Command\Command.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Command\Handle\KeyDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Command\Partition\TickPartition.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Context\Context.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Prompt\Handle\KeyDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Prompt\Partition\Tick.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Prompt\Prompt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Window\Handle\FormClosing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Window\Handle\HandleCreated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Window\Handle\KeyDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Window\Handle\Load.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Window\Handle\Shown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Window\Public\CloseWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Window\Redirect\FormClosing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Window\Redirect\HandleCreated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Window\Redirect\KeyDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Window\Redirect\Load.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Window\Redirect\Shown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Window\Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\InteropStartInfo\InteropStartInfo.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\InteropStartInfo\Type\Void\InteropStartInfoVoidApply.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\InteropStartInfo\Type\Void\InteropStartInfoVoidApplyForce.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\AttributeGroup\IntentionalShortClass\IntentionalShortClass.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\AttributeGroup\IntentionalShortMethod\IntentionalShortMethod.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\AttributeGroup\SymmetryUsageMethod\SymmetryUsageMethod.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Set\Render\ConsoleljSetRender.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Set\Render\Surface\ConsoleljSetRenderSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\ConsoleljsStatic.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\RenderGroup\ConsoleljsStaticRender.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\RenderGroup\ConsoleljsStaticRenderBuildName.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\RenderGroup\ConsoleljsStaticRenderFile.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\RenderGroup\ConsoleljsStaticRenderFileName.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\RenderGroup\ConsoleljsStaticRenderSpecialName.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\RenderGroup\ConsoleljsStaticRenderSplit.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\SafeGroup\ConsoleljsStaticSafeArray.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\SafeGroup\ConsoleljsStaticSafeCharacter.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\SafeGroup\ConsoleljsStaticSafeCharacterArray.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\SafeGroup\ConsoleljsStaticSafeObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\SafeGroup\ConsoleljsStaticSafeString.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\SafeGroup\ConsoleljsStaticSafeTuple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\SafeGroup\ConsoleljsStaticSafeTupleArrayString.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\SafeGroup\ConsoleljsStaticSafeTupleString.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\UtilitiesGroup\ConsoleljsStaticExplorer.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\UtilitiesGroup\ConsoleljsStaticFree.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\UtilitiesGroup\ConsoleljsStaticLog.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\WorkingDirectoryGroup\ConsoleljsWorkingDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJS\Static\WorkingDirectoryGroup\ConsoleljsWorkingDirectoryName.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJW\Code\ConsoleljwLinkCode.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJW\Link\Default\Partition\ConsoleljwLinkDefaultImmutable.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJW\Reflect\StartApplication\Action\ConsoleljwReflectStartApplicationAction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJW\Reflect\StartApplication\Surface\ConsoleljwReflectStartApplicationSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJW\Reflect\StartApplication\Task\ConsoleljwReflectStartApplicationTask.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJW\Reflect\StartApplication\Thread\ConsoleljwReflectStartApplicationThread.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Consolelj.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Data\ConsoleljData.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Link\Code\ConsoleljLinkCode.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Link\Default\Partition\ConsoleljLinkDefaultArchitecture.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Link\Default\Partition\ConsoleljLinkDefaultImmutable.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Link\Policy\ConsoleljLinkPolicy.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Object\ConsoleLJDataObject\ConsoleljDataObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Object\ConsoleLJObject\ConsoleljObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Prototype\ConsoleljPrototype.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Compound\Join\ConsoleljCompoundJoin.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Compound\Portal\ConsoleljCompoundPortal.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Compound\Terminator\ConsoleljCompoundTerminator.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Container\EndPointNameValue\ConsoleLJContainerEndPointNameValue.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Container\EndPointNameValue\Surface\ConsoleLJContainerEndPointNameValueSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Dispenser\Join\ConsoleljDispenserJoin.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Dispenser\Join\Surface\ConsoleljDispenserJoinSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Dispenser\Portal\ConsoleljDispenserPortal.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Dispenser\Portal\Surface\ConsoleljDispenserPortalSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Dispenser\Terminator\ConsoleljDispenserTerminator.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Dispenser\Terminator\Surface\ConsoleljDispenserTerminatorSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Forge\ForgeCurrentTuple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Forge\ForgeFlatTuple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Forge\ForgeGetWaiting.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Forge\ForgeObservableTuple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Forge\ForgePathNotation.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Forge\ForgeSettingFile.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Make\Default\ConsoleljMakeDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Make\Default\Surface\ConsoleljMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Part\CallHandler\00\CallHandler.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Part\CallHandler\01\CallHandlerOneFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Part\CallHandler\02\CallHandlerTwoSecond.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Part\EndPointHandler\00\EndPointHandler.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Part\EndPointHandler\01\EndPointHandlerOneFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Part\EndPointHandler\02\EndPointHandlerTwoSecond.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Part\EndPointHandler\03\EndPointHandlerThreeThird.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Part\EndPointHandler\04\EndPointHandlerFourFourth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Part\SettingHandler\00\SettingHandler.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Part\SettingHandler\01\SettingHandlerOneFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Private\ConsoleljInteropDescriptor.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Public\Clear.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Public\Descriptor.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Public\Echo.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Public\Escape.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Public\ReadLine.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Public\Running.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Public\Style.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Public\Title.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Public\Waiting.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Public\WriteLine.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Sequence\ConsoleljSequence.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Sequence\Debug\ConsoleljSequenceDebug.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Set\File\ConsoleljSetFile.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Set\File\Surface\ConsoleljSetFileSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Set\Folder\ConsoleljSetFolder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Set\Folder\Surface\ConsoleljSetFolderSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Type\Void\ConsoleljVoidNameValue.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\InterfaceGroup\Composition\Exposable\IExposable.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\InterfaceGroup\Composition\Exposer\IExposer.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\InterfaceGroup\Format\CharacterArraySafe\ICharacterArraySafe.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\InterfaceGroup\Format\CharacterSafe\ICharacterSafe.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\InterfaceGroup\Format\StringArray\IStringArray.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\InterfaceGroup\Format\StringFormat\IStringFormat.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\InterfaceGroup\Format\StringSafe\IStringSafe.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\InterfaceGroup\Order\AssignOrder\IAssignOrder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\InterfaceGroup\Order\BindOrder\IBindOrder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\InterfaceGroup\Order\CentralOrder\ICentralOrder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\InterfaceGroup\Order\ControlOrder\IControlOrder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\InterfaceGroup\Order\EventOrder\IEventOrder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\InterfaceGroup\Order\StyleOrder\IStyleOrder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\InterfaceGroup\Order\TimeOrder\ITimeOrder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\CompressRaw\ContributeCompressRaw.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Compress\ContributeCompress.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Contribute.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\InformationRaw\ContributeInformationRaw.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Link\Code\ContributeLinkCode.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Link\Constant\ContributeLinkConstant.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Link\Policy\ContributeLinkPolicy.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Meta\EnumPredicate\ContributeEnumPredicate.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Meta\StringSafe\ContributeStringSafe.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Module\ContributeModule.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Module\Default\ContributeModuleDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Module\Function\01\First\ContributeModuleFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Module\Function\01\One\ContributeModuleOne.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Object\ContributeObject\ContributeObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Prototype\ContributePrototype.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Type\Group\TabulationA.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Type\Group\TabulationB.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Type\Group\TabulationC.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Type\Group\TabulationD.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Type\Make\Default\ContributeMakeDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Type\Make\Default\Surface\ContributeMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Type\Public\Save.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Type\Sequence\ContributeSequence.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Type\Sequence\Debug\ContributeSequenceDebug.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Type\Set\Default\ContributeSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Type\Set\Default\Surface\ContributeSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\CompressRaw\ExpressionCompressRaw.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Compress\ExpressionCompress.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Expression.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\InformationRaw\ExpressionInformationRaw.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Link\Constant\Partition\ExpressionLinkConstant.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Link\Policy\ExpressionLinkPolicy.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Meta\StringSafe\ExpressionStringSafe.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleReadIO\Type\Module\ModuleOwner.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Action\ExpressionModuleAction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Default\ExpressionModuleDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\ExpressionModuleWrite.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\10\ExpressionModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\10\First\ExpressionModuleFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\10\One\ExpressionModuleOne.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\10\Type\Forge\ForgeAddressTable.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\20\ExpressionModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\20\Second\ExpressionModuleSecond.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\20\Two\ExpressionModuleTwo.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\20\Type\Container\StringIdentity\FunctionContainerStringIdentity.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\20\Type\Container\StringIdentity\Surface\FunctionContainerStringIdentitySurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\30\ExpressionModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\30\Third\ExpressionModuleThird.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\30\Three\ExpressionModuleThree.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\30\Type\Container\Region\FunctionContainerRegion.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\30\Type\Container\Region\Surface\FunctionContainerRegionSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\40\ExpressionModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\40\Fourth\ExpressionModuleFourth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\40\Four\ExpressionModuleFour.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\40\Type\Container\Expression\FunctionContainerExpression.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleRead\Function\40\Type\Container\Expression\Surface\FunctionContainerExpressionSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWriteIO\Type\Module\ModuleObjectIdentityTable.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWriteIO\Type\Module\ModuleStringIdentityTable.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWriteIO\Type\Module\ModuleAddressTable.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWriteIO\Type\Module\ModuleWriteBinary.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Action\ExpressionModuleAction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Default\ExpressionModuleDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\ExpressionModuleWrite.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\10\ExpressionModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\10\First\ExpressionModuleFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\10\One\ExpressionModuleOne.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\10\Type\Container\Order\FunctionContainerOrder.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\10\Type\Container\Order\Surface\FunctionContainerOrderSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\20\ExpressionModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\20\Second\ExpressionModuleSecond.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\20\Two\ExpressionModuleTwo.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\20\Type\Container\Region\FunctionContainerRegion.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\20\Type\Container\Region\Surface\FunctionContainerRegionSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\20\Type\Container\Relate\FunctionContainerRelate.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\20\Type\Container\Relate\Surface\FunctionContainerRelateSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\30\ExpressionModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\30\Third\ExpressionModuleThird.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\30\Three\ExpressionModuleThree.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\30\Type\Container\ExpressionContainerRegion.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\30\Type\Container\Surface\ExpressionContainerRegionSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\40\ExpressionModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\40\Fourth\ExpressionModuleFourth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\40\Four\ExpressionModuleFour.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\40\Type\Container\ExpressionContainerFlat.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Function\40\Type\Container\Surface\ExpressionContainerFlatSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Type\Static\ExpressionModuleClose.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\ModuleWrite\Type\Static\ExpressionModuleCollapse.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Object\ExpressionObject\ExpressionObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Prototype\ExpressionPrototype.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Simple\Partition\ExpressionSimple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Forge\ForgeDeflectRegion.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Forge\ForgeExpressionFormat.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Forge\ForgeRepresentString.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Bind\Bind.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Bind\HBindInt32.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Bind\BindInt32.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Bind\HBind.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Bind\IBind.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\DeflectRegion\DeflectRegionCsharpUInt32.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\DeflectRegion\DeflectRegionCsharpInt32.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Lock\HLock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Lock\HVLock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Lock\ILock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Lock\Lock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Lock\SLock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Lock\ULock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Lock\VLock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Mod\IMod.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Operation\HOperation.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Operation\IOperation.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Operation\Operation.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Peek\UPeek.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Release\BRelease.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Release\HBRelease.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Release\HRelease.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Release\HVRelease.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Release\IRelease.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Release\Release.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Release\VRelease.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Unlock\HUnlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Unlock\HVUnlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Unlock\IUnlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Unlock\Unlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\Unlock\VUnlock.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\View\HView.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\View\IView.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Group\View\View.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Make\Default\ExpressionMakeDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Make\Default\Surface\Simple\ExpressionMakeDefaultSurfaceSimple.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Make\Default\Surface\ExpressionMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Make\Set\Filter\ExpressionSetFilter.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Make\Set\Filter\Surface\ExpressionSetFilterSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Make\Variation\Empty\ExpressionMakeEmpty.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Make\Variation\Root\ExpressionMakeRoot.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Operation\CSharpHostInt32Addition.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Part\00\ExpressionPartInstructionHandlerZeroTen.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Part\01\ExpressionPartInstructionHandlerOneFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Part\02\ExpressionPartInstructionHandlerTwoSecond.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Public\InstructionHandler.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Sequence\Debug\ExpressionSequenceDebug.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Sequence\ExpressionSequence.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Set\All\Surface\ExpressionSetAllSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Set\All\ExpressionSetAll.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Static\ExpressionStaticLoad.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Static\ExpressionStaticLoadFromCurrentDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Static\ExpressionStaticSave.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Static\ExpressionStaticSaveToCurrentDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Set\Object\ExpressionSetObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Set\Object\Surface\ExpressionSetObjectSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Set\Reflect\ExpressionSetReflect.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Type\Set\Reflect\Surface\ExpressionSetReflectSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\CompressRaw\ReflectCompressRaw.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Compress\ReflectCompress.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Link\ReflectLinkPolicy.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Meta\CharacterArraySafe\ReflectCharacterArraySafe.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Meta\CharacterSafe\ReflectCharacterSafe.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Meta\StringFormat\ReflectStringFormat.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Meta\StringSafe\ReflectStringSafe.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Action\ReflectModuleAction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Default\ReflectModuleDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\00\ReflectModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\00\ReflectModuleZero.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\00\ReflectModuleZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\00\Type\Set\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\00\Type\Set\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\10\First\ReflectModuleFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\10\One\ReflectModuleOne.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\10\ReflectModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\10\Type\For\FunctionForDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\20\ReflectModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\20\Second\ReflectModuleSecond.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\20\Two\ReflectModuleTwo.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\20\Type\Container\FunctionContainerTupleArray.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\20\Type\Container\Surface\FunctionContainerTupleArraySurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\30\ReflectModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\30\Third\ReflectModuleThird.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\30\Three\ReflectModuleThree.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\30\Type\Container\Default\FunctionContainerDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\30\Type\Container\Default\Surface\FunctionContainerDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\40\Fourth\ReflectModuleFourth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\40\Four\ReflectModuleFour.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\40\ReflectModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\40\Type\Container\Default\ReflectContainerDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\40\Type\Container\Default\Surface\ReflectContainerDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\50\ReflectModuleFifth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\50\ReflectModuleFive.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\50\ReflectModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\50\Type\Compound\Default\FunctionCompoundDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\50\Type\Set\Default\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\50\Type\Set\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\50\Type\Void\FunctionVoidProof.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\60\ReflectModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\60\ReflectModuleSix.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\60\ReflectModuleSixth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\60\Type\Set\Default\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\60\Type\Set\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\70\ReflectModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\70\ReflectModuleSeven.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\70\ReflectModuleSeventh.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\70\Type\Container\Layer\FunctionContainerLayer.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\70\Type\Container\Layer\Surface\FunctionContainerLayerSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\70\Type\Set\Default\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\70\Type\Set\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\80\ReflectModuleEight.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\80\ReflectModuleEightht.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\80\ReflectModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\80\Type\Set\Default\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\80\Type\Set\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\90\ReflectModuleFunction.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\90\ReflectModuleNine.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\90\ReflectModuleNinth.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\90\Type\Set\Default\FunctionSetDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\Function\90\Type\Set\Default\Surface\FunctionSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Module\ReflectModule.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Object\ReflectObject\ReflectObject.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Prototype\ReflectPrototype.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Reflect.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Type\Forge\ForgeSymmetryCharacter.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Type\Make\Default\ReflectMakeDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Type\Make\Default\Surface\ReflectMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Type\Sequence\Debug\ReflectSequenceDebug.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Type\Sequence\ReflectSequence.cs" />
+    <Compile Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\3D\Form\Window\Partition\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\1D\Document.txt" />
+    <Content Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\ConsoleLJGroup\ConsoleLJ\Meta\ConsoleLJMeta.txt" />
+    <Content Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Contribute\Meta\ContributeMeta.txt" />
+    <Content Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Expression\Meta\ExpressionMeta.txt" />
+    <Content Include="origin-cs-lib-dll-10-19-2023-06-25-AM-1020-console-101\Studio\4D\MiddlewareGroup\Reflect\Meta\ReflectMeta.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
